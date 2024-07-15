@@ -27,7 +27,7 @@ def predict(input_data: InputData):
         predicted_value = prediction[0][0]
 
         # Return the predicted value in a JSON-compatible format
-        return {"predicted_value": float(predicted_value)}  # Ensure predicted_value is JSON serializable
+        return {"predicted_value": float(predicted_value)}  
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
