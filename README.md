@@ -6,7 +6,15 @@ This project aims to predict the price of Bitcoin using time series forecasting 
 
 ## Model loss
 
-**mae** : 566
+{'mae': 561.7786,
+
+'mse': 1151999.0,
+
+'rmse': 1073.3121,
+
+'mape': 2.5123477,
+
+'mase': 0.9868893479373553}
 
 ## Features
 
