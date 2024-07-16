@@ -71,6 +71,10 @@ uvicorn main:app --reload
 
 ## Example Input
 
+## input dim
+
+- (,7)
+
 - {
   "data": [
   123.65499,
